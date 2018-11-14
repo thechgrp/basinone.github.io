@@ -1,0 +1,206 @@
+
+@charset "utf-8";
+
+
+/*   -- main css    */
+
+
+body {
+    height:100%;
+    width:100%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #DC146C;
+    font-family: 'PT Sans', sans-serif !important;
+    font-size:18px;
+    line-height: 25px;
+
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+.clear {
+    clear:both;
+}
+
+a {
+    text-decoration:none;
+
+}
+
+p {
+    margin: 0 auto;
+    padding: 0; 
+}
+
+
+li {
+  float: left;
+  list-style-type: none;
+  display: block;
+}
+
+hr{
+
+   margin-top: 40px;
+   margin-bottom: 30px;
+   opacity: .5;
+}
+
+
+#blackHeader {
+
+    margin: 0 auto 0 auto;
+    display: block;
+    width: 100%;
+    height: 230px;
+    padding-top: 0px;
+    padding-left: 0px;
+    top:0px;
+    background-color: #000000;
+
+
+}
+
+#whiteBar {
+
+    margin: 0 auto 0 auto;
+    display: block;
+    width: 100%;
+    height: 5px;
+    padding-top: 0px;
+    padding-left: 0px;
+    top:300px;
+    background-color: #ffffff;
+
+}
+
+
+#logo {
+
+    display: block;
+    width: 179px;
+    margin: auto;
+    padding-top: 50px;
+    position: relative;
+
+
+}
+
+#basinName {
+
+    display: block;
+    width: 287px;
+    margin: auto;
+    padding-top: 30px;
+    position: relative;
+
+
+}
+
+#basinTitle {
+
+    margin: 0 auto 0 auto;
+    display: block;
+    width: 100%;
+    
+
+}
+
+
+#arrow {
+    display: block;
+    width: 27px;
+    margin: auto;
+    padding-top: 44px;
+    position: relative;
+    opacity: .5;
+
+}
+
+#arrow:hover {
+opacity: 1;
+
+}
+
+
+#slugline {
+    display: block;
+    margin: auto;
+    padding-top: 24px;
+    width: 320px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #ffffff; 
+    text-decoration:none;
+
+}
+
+
+#bottomWrapper {
+
+
+    margin: 0 auto 0 auto;
+    display: block;
+    width: 100%;
+    height: 480px;
+
+
+
+}
+
+
+@media only screen and (min-height: 560px) { 
+
+#bottomImage {
+
+    position:fixed;
+    bottom:0px;
+    left:50%;
+    margin-left:-240px;
+    display: block;
+    width: 480px;
+    height: 300px;
+    background-repeat: no-repeat, repeat;
+    background-image: url("overlayBlackWhite.png");
+    background-color: #DC146C;
+    background-blend-mode:multiply;
+    opacity: .2;
+
+
+}
+
+
+@media only screen and (min-height: 680px) { 
+
+#bottomImage {
+
+    position:fixed;
+    bottom:0px;
+    left:50%;
+    margin-left:-240px;
+    display: block;
+    width: 480px;
+    height: 300px;
+    background-repeat: no-repeat, repeat;
+    background-image: url("overlayBlackWhite.png");
+    background-color: #DC146C;
+    background-blend-mode:multiply;
+    opacity: .7;
+
+
+}
+
+
+}
+
+
+
+
+
+
